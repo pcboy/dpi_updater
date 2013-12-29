@@ -12,7 +12,7 @@ ui_print "*********************"
 ui_print "     Set DPI ZIP"
 ui_print "*********************"
 
-ui_print "- Mounting /system, /data and rootfs"
+ui_print "- Mounting /system"
 mount /system
 mount -o rw,remount /system
 
